@@ -1,0 +1,39 @@
+/* 
+   Este archivo CSS es un "reset" básico que busca normalizar los estilos predeterminados de los navegadores para un inicio limpio en el diseño de páginas web.
+   Cada línea tiene un comentario explicativo de su propósito.
+*/
+
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Establece el modelo de caja para incluir padding y border en el ancho total */
+}
+
+/* Normaliza elementos de bloque */
+h1, h2, h3, p, ul, ol, blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+/* Normaliza listas */
+ul, ol {
+    list-style: none; /* Elimina los estilos de viñetas o numeración de listas */
+}
+
+/* Normaliza elementos de formulario */
+input, button {
+    background: none;
+    border: none;
+}
+
+/* Normaliza imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Normaliza hipervínculos */
+a {
+    text-decoration: none; /* Elimina la subrayado predeterminado de los enlaces */
+}
